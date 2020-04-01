@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		x[i]=(rand()%(max-min))+min;
 		printf("x[%d] = %d\n", i+1, x[i]);
 	}
-	// Algoritmo de ordenamiento por intercambio o insersion
+	// Algoritmo de ordenamiento por conteo
 	for(i=0; i<rango; i++)
 		h[i]=0;
 	for(i=0; i<n; i++)
